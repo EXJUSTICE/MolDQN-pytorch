@@ -48,6 +48,8 @@ Please remember to modify the `TB_LOG_PATH` variable in `main.py` depending on w
 A Notebook to train the model on a single property QED optimization task can be seen in `examples/MolDQN-pytorch.ipynb`.
 Another Notebook to train the model on a single property LogP optimization task can be seen in `examples/MolDQN_LogP.ipynb`.
 
+Note that the example notebooks can be run over online GPU instances such as Google Colaboratory - however this is not recommended due to extreme training time.
+
 ## Results:
 
 The following was the reward curve obtained when the model was trained for 5000 episodes on a single property optimization task (QED in this case).
