@@ -6,6 +6,10 @@ license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit
 PyTorch implementation of MolDQN as described in [Optimization of Molecules via Deep Reinforcement Learning](https://www.nature.com/articles/s41598-019-47148-x)
 by Zhenpeng Zhou, Steven Kearnes, Li Li, Richard N. Zare and Patrick Riley.
 
+<p align="center">
+  <img src= "https://github.com/EXJUSTICE/MolDQN-pytorch/blob/master/MOLdqnPAPER.jpg?raw=true">
+</p>
+
 ## Background
 TBD
 
