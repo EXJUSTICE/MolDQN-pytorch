@@ -42,7 +42,8 @@ Please remember to modify the `TB_LOG_PATH` variable in `main.py` depending on w
 
 `python main.py`
 
-A simple example to train the model on a single property optimization task can be seen in `examples/MolDQN-pytorch.ipynb`.
+A Notebook to train the model on a single property QED optimization task can be seen in `examples/MolDQN-pytorch.ipynb`.
+Another Notebook to train the model on a single property LogP optimization task can be seen in `examples/MolDQN_LogP.ipynb`.
 
 ## Results:
 
