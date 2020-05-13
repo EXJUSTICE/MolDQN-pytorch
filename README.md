@@ -17,7 +17,8 @@ TBD
 *  **environment.py**<br/> Base MDP environment class. Defines the chemical methods and markov decision process for molecular generation
 *  **dqn.py**<br/> Model architecture for the agent.
 *  **agent.py**<br/> Base agent class. Defines all methods available to the agent with regards to action selection, replay storage, reward processing, and parameter updates.
-*  **molecules.py**<br/> Auxilliary classes defining the LogP loss function, and several RDkit computations
+*  **molecules.py**<br/> Auxilliary classes defining the LogP loss function, and several RDkit computations.
+*  **Example Jupyter Notebooks**<br/> Both QED and LogP loss functions are demonstrated.
 
 ## Installation
 
