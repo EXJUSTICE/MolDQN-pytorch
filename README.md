@@ -12,8 +12,13 @@ by Zhenpeng Zhou, Steven Kearnes, Li Li, Richard N. Zare and Patrick Riley.
 
 ## Background
 TBD
-## File
-*  Main.py - main training script
+## Contents
+*  main.py: Primary training script. Initializes the training environment, the agent, and performs training for n interations. Hyperparameters can be found in hyp.py (Coming Soon: Argparse arguments)
+*  environment.py: Base MDP environment class. Defines the chemical methods and markov decision process for molecular generation
+*  dqp.py: Model architecture for the agent.
+*  agent.py: Base agent class. Defines all methods available to the agent with regards to action selection, replay storage, reward processing, and parameter updates.
+*  molecules.py & utils.py : Auxilliary classes defining the LogP loss function, and several Rdkit computations
+
 ## Installation
 
 ## <a name="source"></a>From source:
