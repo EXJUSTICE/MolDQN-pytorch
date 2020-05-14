@@ -15,7 +15,7 @@ by Zhenpeng Zhou, Steven Kearnes, Li Li, Richard N. Zare and Patrick Riley.
 The MOlDQN paper currently relies solely on Q-learning. Q-learning is a reinforcement learning algorithm belonging to the temporal difference (TD) family of algorithms. Unlike tradtional Monte Carlo approaches, TD utilizes state-value estimates of the next state obtained intra-episode in order to improve its estimate of the state-value of the current state.<br/><br/> Q-learning further builds upon this by creating the estimate of the state-value of the next state using the action that maximizes its value at that time, instead of an expected value (as observed in other TD approaches such as SARSA). A detailed consideration of Q-learning can be found [here](https://towardsdatascience.com/automating-pac-man-with-deep-q-learning-an-implementation-in-tensorflow-ca08e9891d9c).
 
 ## Contents
-*  **main.py**<br/>Primary training script. Initializes the training environment, the agent, and performs training for n interations. Hyperparameters can be found in 'hyp.py'.
+*  **main.py**<br/>Primary training script. Initializes the training environment, the agent, and performs training for n interations. Hyperparameters can be found in `hyp.py`.
 *  **environment.py**<br/> Base MDP environment class. Defines the chemical methods and markov decision process for molecular generation
 *  **dqn.py**<br/> Model architecture for the agent.
 *  **agent.py**<br/> Base agent class. Defines all methods available to the agent with regards to action selection, replay storage, reward processing, and parameter updates.
@@ -59,7 +59,7 @@ Please remember to modify the `TB_LOG_PATH` variable in `main.py` depending on w
 `python main.py`
 
 A Notebook to train the model on a single property QED optimization task can be seen in `examples/MolDQN-pytorch.ipynb`.
-Another Notebook to train the model on a single property LogP optimization task can be seen in `examples/MolDQN_LogP.ipynb`. Hyperparameters used during training can be found in 'hyp.py'
+Another Notebook to train the model on a single property LogP optimization task can be seen in `examples/MolDQN_LogP.ipynb`. Hyperparameters used during training can be found in `hyp.py`
 
 Note that the example notebooks can be run over online GPU instances such as Google Colaboratory - however this is not recommended due to extreme training time.
 
