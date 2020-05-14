@@ -20,7 +20,7 @@ The MOlDQN paper currently relies solely on Q-learning. Q-learning is a reinforc
 *  `dqn.py`<br/> Model architecture for the agent.
 *  `agent.py`<br/> Base agent class. Defines all methods available to the agent with regards to action selection, replay storage, reward processing, and parameter updates.
 *  `molecules.py`<br/> Auxilliary classes defining the LogP loss function, and several RDkit computations.
-*  **Example Jupyter Notebooks**<br/> Both QED and LogP loss functions are demonstrated.
+*  `examples/`<br/> Folder containing Jupyter Notebook Examples. Both QED and LogP loss functions are demonstrated.
 
 ## Installation
 
