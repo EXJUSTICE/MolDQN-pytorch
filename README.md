@@ -15,11 +15,11 @@ by Zhenpeng Zhou, Steven Kearnes, Li Li, Richard N. Zare and Patrick Riley.
 The MOlDQN paper currently relies solely on Q-learning. Q-learning is a reinforcement learning algorithm belonging to the temporal difference (TD) family of algorithms. Unlike tradtional Monte Carlo approaches, TD utilizes state-value estimates of the next state obtained intra-episode in order to improve its estimate of the state-value of the current state.<br/><br/> Q-learning further builds upon this by creating the estimate of the state-value of the next state using the action that maximizes its value at that time, instead of an expected value (as observed in other TD approaches such as SARSA). A detailed consideration of Q-learning can be found [here](https://towardsdatascience.com/automating-pac-man-with-deep-q-learning-an-implementation-in-tensorflow-ca08e9891d9c).
 
 ## Contents
-*  **main.py**<br/>Primary training script. Initializes the training environment, the agent, and performs training for n interations. Hyperparameters can be found in `hyp.py`.
-*  **environment.py**<br/> Base MDP environment class. Defines the chemical methods and markov decision process for molecular generation
-*  **dqn.py**<br/> Model architecture for the agent.
-*  **agent.py**<br/> Base agent class. Defines all methods available to the agent with regards to action selection, replay storage, reward processing, and parameter updates.
-*  **molecules.py**<br/> Auxilliary classes defining the LogP loss function, and several RDkit computations.
+*  `main.py`<br/>Primary training script. Initializes the training environment, the agent, and performs training for n interations. Hyperparameters can be found in `hyp.py`.
+*  `environment.py`<br/> Base MDP environment class. Defines the chemical methods and markov decision process for molecular generation
+*  `dqn.py`<br/> Model architecture for the agent.
+*  `agent.py`<br/> Base agent class. Defines all methods available to the agent with regards to action selection, replay storage, reward processing, and parameter updates.
+*  `molecules.py`<br/> Auxilliary classes defining the LogP loss function, and several RDkit computations.
 *  **Example Jupyter Notebooks**<br/> Both QED and LogP loss functions are demonstrated.
 
 ## Installation
