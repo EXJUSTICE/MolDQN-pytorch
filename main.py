@@ -22,7 +22,7 @@ else:
 
 environment = QEDRewardMolecule(
     discount_factor=hyp.discount_factor,
-    reward_type="LogP",
+    reward_type=hyp.reward_type,
     atom_types=set(hyp.atom_types),
     init_mol=hyp.start_molecule,
     allow_removal=hyp.allow_removal,
