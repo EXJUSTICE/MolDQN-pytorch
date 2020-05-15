@@ -16,10 +16,9 @@ from rdkit.Chem import AllChem
 
 REPLAY_BUFFER_CAPACITY = hyp.replay_buffer_size
 
-
- """
- Single Objective Optimization Molecule Class
- """
+"""
+Single Objective Optimization Molecule Class
+"""
 class QEDRewardMolecule(Molecule):
     """The molecule whose reward is the QED."""
 
