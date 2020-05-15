@@ -64,9 +64,9 @@ class QEDRewardMolecule(Molecule):
             return 0.0
           return penalized_logp(molecule)
  
- """
- Multi Objective Optimization Molecule Class
- """
+"""
+Multi Objective Optimization Molecule Class
+"""
 class MultiObjectiveRewardMolecule(Molecule):
   """Defines the subclass of generating a molecule with a specific reward.
   The reward is defined as a scalar
