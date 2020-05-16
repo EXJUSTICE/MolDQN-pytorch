@@ -57,10 +57,10 @@ nvidia-docker run -[Options] moldqn_pytorch:latest python path/to/main.py
 Please remember to modify the `TB_LOG_PATH` variable in `main.py` depending on where you wish to store your tensorboard runs file.
 ## Training the MolDQN:
 
-`python main.py`
+The notebook to train the model on a single property QED optimization task can be seen in `examples/MolDQN-pytorch.ipynb`.
+Similarly, the notebook to train the model on a single property LogP optimization task can be seen in `examples/MolDQN_LogP.ipynb`. Hyperparameters used during training can be found in `hyp.py`
 
-A Notebook to train the model on a single property QED optimization task can be seen in `examples/MolDQN-pytorch.ipynb`.
-Another Notebook to train the model on a single property LogP optimization task can be seen in `examples/MolDQN_LogP.ipynb`. Hyperparameters used during training can be found in `hyp.py`
+Finally, the notebook for multiple property optimization task can be seen in `examples/MolDQN_MultiObjective.ipynb` .Hyperparameters used during training can be found in `hypmulti.py`
 
 Note that the example notebooks can be run over online GPU instances such as Google Colaboratory - however this is not recommended due to extreme training time.
 
