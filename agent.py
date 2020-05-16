@@ -84,8 +84,8 @@ class MultiObjectiveRewardMolecule(Molecule):
       **kwargs: The keyword arguments passed to the parent class.
     """
     super(MultiObjectiveRewardMolecule, self).__init__(**kwargs)
-    #Replaced chemMolFromSmiles Argument from TargetMolecule to 'c1ccccc1'
-    target_molecule = Chem.MolFromSmiles('c1ccccc1')
+    
+    target_molecule = Chem.MolFromSmiles(target_molecule)
     self._target_mol_fingerprint = self.get_fingerprint(target_molecule)
     self._sim_weight = similarity_weight
     self._discount_factor = discount_factor
