@@ -2,9 +2,9 @@
 Hyperparameters for Multi-Objective Optimization.
 """
 
-start_molecule='c1ccccc1',
-target_molecule='c1ccccc1',
-similarity_weight=0.2,
+start_molecule='c1ccccc1'
+target_molecule='c1ccccc1'
+similarity_weight=0.2
 epsilon_start = 1.0
 epsilon_end = 0.01
 epsilon_decay = 2000
