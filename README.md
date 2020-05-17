@@ -42,7 +42,7 @@ The MOlDQN paper currently relies solely on Q-learning. Q-learning is a reinforc
 4) Install `baselines`.  
    `pip install "git+https://github.com/openai/baselines.git@master#egg=baselines-0.1.6"`  
    
-## From Docker:
+## From Docker
 
 Using a docker image requires an NVIDIA GPU.  If you do not have a GPU please follow the directions for [installing from source](#source)
 In order to get GPU support you will have to use the [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) plugin.
@@ -55,7 +55,7 @@ docker build -t moldqn_pytorch:latest .
 nvidia-docker run -[Options] moldqn_pytorch:latest python path/to/main.py
 ```
 Please remember to modify the `TB_LOG_PATH` variable in `main.py` depending on where you wish to store your tensorboard runs file.
-## Training the MolDQN:
+## Training the MolDQN
 
 The notebook to train the model on a single property QED optimization task can be seen in `examples/MolDQN-pytorch.ipynb`.
 Similarly, the notebook to train the model on a single property LogP optimization task can be seen in `examples/MolDQN_LogP.ipynb`. Hyperparameters used during training can be found in `hyp.py`
@@ -64,8 +64,16 @@ Finally, the notebook for multiple property optimization task can be seen in `ex
 
 Note that the example notebooks can be run over online GPU instances such as Google Colaboratory - however this is not recommended due to extreme training time.
 
-## Results:
+## Results
 
 The following was the reward curve obtained when the model was trained for 5000 episodes on a single property optimization task (QED in this case).
 
 <img src="https://github.com/aksub99/MolDQN-pytorch/blob/master/Results/plots/episode_reward.svg" height="500" width="500">
+
+## TBD
+
+*  Display rewards
+*  Output SMILES
+*  Implement SARSA, Expected SARSA etc.
+*  Evaluate auxilliary RDKIT reward functions
+
