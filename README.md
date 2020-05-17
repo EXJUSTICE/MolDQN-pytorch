@@ -70,7 +70,7 @@ The following was the reward curve obtained when the model was trained for 5000 
 
 <img src="https://github.com/aksub99/MolDQN-pytorch/blob/master/Results/plots/episode_reward.svg" height="500" width="500">
 
-## TBD
+## TODO
 
 *  Display rewards
 *  Output SMILES
