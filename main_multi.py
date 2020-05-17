@@ -4,7 +4,7 @@ from agent import MultiObjectiveRewardMolecule, Agent
 import hyp
 import hypmulti
 import math
-import utils
+from utils import utils
 import numpy as np
 from torch.utils.tensorboard import SummaryWriter
 
