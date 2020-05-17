@@ -9,7 +9,7 @@ from rdkit import Chem
 from rdkit.Chem import QED
 from environment import Molecule
 from baselines.deepq import replay_buffer
-from molecules import penalized_logp
+from utils.molecules import penalized_logp
 
 from rdkit import DataStructs
 from rdkit.Chem import AllChem
