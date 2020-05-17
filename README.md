@@ -7,7 +7,7 @@ PyTorch implementation of MolDQN as described in [Optimization of Molecules via 
 by Zhenpeng Zhou, Steven Kearnes, Li Li, Richard N. Zare and Patrick Riley.
 
 <p align="center">
-  <img src= "https://github.com/EXJUSTICE/MolDQN-pytorch/blob/master/MOLdqnPAPER.jpg?raw=true">
+  <img src= "https://github.com/EXJUSTICE/MolDQN-pytorch/blob/master/utils/moldqn_paper.jpg?raw=true">
 </p>
 
 ## Background: Q-learning
