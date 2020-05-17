@@ -33,7 +33,7 @@ from rdkit.Chem import Draw
 from six.moves import range
 from six.moves import zip
 
-import utils
+from utils import utils
 
 
 class Result(collections.namedtuple("Result", ["state", "reward", "terminated"])):
