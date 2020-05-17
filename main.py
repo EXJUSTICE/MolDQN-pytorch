@@ -3,7 +3,7 @@ from agent import Agent
 from agent import QEDRewardMolecule, Agent
 import hyp
 import math
-import utils
+from utils import utils
 import numpy as np
 from torch.utils.tensorboard import SummaryWriter
 
