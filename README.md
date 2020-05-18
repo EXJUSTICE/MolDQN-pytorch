@@ -66,10 +66,13 @@ Note that the example notebooks can be run over online GPU instances such as Goo
 
 ## Results
 
-The following was the reward curve obtained when the model was trained for 5000 episodes on a single property optimization task (QED in this case).
+The following was the reward curve for single property optimization task (QED) obtained when the model was trained for 5000 episodes is shown below:
 
 <img src="https://github.com/aksub99/MolDQN-pytorch/blob/master/Results/plots/episode_reward.svg" height="500" width="500">
 
+The reward curve for the multi-objective optimization (Tanimoto Similarity + QED) obtained when the model was trained for 375 episodes is shown below:
+
+<img src="https://github.com/EXJUSTICE/MolDQN-pytorch/blob/master/Results/plots/multiobjective_reward.JPG?raw=true" height="500" width="500">
 ## TODO
 
 *  Display rewards
