@@ -4,6 +4,7 @@ import numpy as np
 import torch.optim as opt
 import utils
 import hyp
+import random
 from model.dqn import MolDQN
 from rdkit import Chem
 from rdkit.Chem import QED
