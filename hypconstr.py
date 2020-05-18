@@ -1,8 +1,7 @@
 """
 Hyperparameters for Constrained-Objective Optimization.
 """
-
-similarity_weight=0.2,
+similarity_constraint =0.2
 epsilon_start = 1.0
 epsilon_end = 0.01
 epsilon_decay = 2000
