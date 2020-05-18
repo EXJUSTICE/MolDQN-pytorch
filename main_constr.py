@@ -150,6 +150,3 @@ for it in range(iterations):
             loss = agent.update_params(batch_size, hyp.gamma, hyp.polyak)
             loss = loss.item()
             batch_losses.append(loss)
-×
-Drag and Drop
-The image will be downloaded
