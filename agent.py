@@ -137,10 +137,9 @@ class MultiObjectiveRewardMolecule(Molecule):
         qed_value * (1 - self._sim_weight))
     discount = self._discount_factor**(self.max_steps - self._counter)
     return reward * discount
-
- """
- Constrained Objective Optimization Molecule Class
- """
+"""
+Constrained Objective Optimization Molecule Class
+"""
 class LogPRewardWithSimilarityConstraintMolecule(molecules_mdp.Molecule):
   """The molecule whose reward is the penalized logP with similarity constraint.
 
@@ -234,9 +233,9 @@ class LogPRewardWithSimilarityConstraintMolecule(molecules_mdp.Molecule):
     return reward * self._discount_factor**(self.max_steps - self._counter)
 
 
- """
- Shared Base DQN Agent Class
- """
+"""
+Shared Base DQN Agent Class
+"""
 
 class Agent(object):
     def __init__(self, input_length, output_length, device):
