@@ -140,7 +140,7 @@ class MultiObjectiveRewardMolecule(Molecule):
 """
 Constrained Objective Optimization Molecule Class
 """
-class LogPRewardWithSimilarityConstraintMolecule(molecules_mdp.Molecule):
+class LogPRewardWithSimilarityConstraintMolecule(Molecule):
   """The molecule whose reward is the penalized logP with similarity constraint.
 
   Each time the environment is initialized, we uniformly choose
