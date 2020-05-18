@@ -72,7 +72,7 @@ The following was the reward curve for single property optimization task (QED) o
 
 The reward curve for the multi-objective optimization (Tanimoto Similarity + QED) obtained when the model was trained for 375 episodes is shown below:
 
-<img src="https://github.com/EXJUSTICE/MolDQN-pytorch/blob/master/Results/plots/episode_reward_multi.PNG?raw=true"width="500" >
+<img src="https://github.com/EXJUSTICE/MolDQN-pytorch/blob/master/Results/plots/episode_reward_multi.PNG?raw=true" width="500" >
 ## TODO
 
 *  Display rewards
