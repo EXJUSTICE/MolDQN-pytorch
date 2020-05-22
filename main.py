@@ -132,6 +132,12 @@ for it in range(iterations):
                     episodes, np.array(batch_losses).mean()
                 )
             )
+        # Visualize state of molecule
+        if episodes % 100 ==0:
+            print("current molecule state")
+            environment.visualize_state()
+            
+           
         episodes += 1
         eps_threshold *= 0.99907
         batch_losses = []
