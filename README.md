@@ -75,7 +75,6 @@ The reward curve for the multi-objective optimization (Tanimoto Similarity + QED
 <img src="https://github.com/EXJUSTICE/MolDQN-pytorch/blob/master/Results/plots/episode_reward_multi.PNG?raw=true" width="500" >
 ## TODO
 
-*  Display rewards
 *  Output SMILES
 *  Implement SARSA, Expected SARSA etc.
 *  Evaluate auxilliary RDKIT reward functions
