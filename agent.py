@@ -9,7 +9,7 @@ from model.dqn import MolDQN
 from rdkit import Chem
 from rdkit.Chem import QED
 from environment import Molecule
-from baselines.deepq import replay_buffer
+import replay_buffer
 from utils.molecules import penalized_logp
 from utils import molecules
 from rdkit import DataStructs
